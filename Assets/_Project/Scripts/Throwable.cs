@@ -14,7 +14,7 @@ public class Throwable : MonoBehaviour
     }
 
     public void Fling()
-    { 
-        
+    {
+
     }
 }

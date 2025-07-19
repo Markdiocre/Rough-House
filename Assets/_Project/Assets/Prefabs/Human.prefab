@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 287933549571501693}
   - component: {fileID: 7600189492054446648}
   - component: {fileID: 2816171410037722595}
+  - component: {fileID: 1644958172821340105}
   m_Layer: 0
   m_Name: Human
   m_TagString: Throwable
@@ -41,8 +42,8 @@ SpriteRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534085765421766603}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
@@ -109,3 +110,15 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.6
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1644958172821340105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534085765421766603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a81d8566de0b342903391a0d7232d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

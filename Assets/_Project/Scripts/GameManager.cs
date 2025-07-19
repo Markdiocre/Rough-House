@@ -3,8 +3,12 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance = null;
+    public GameObject powerPanel;
 
-    public Throwable current;
+
+    Throwable current;
+    float flingPower;
+
     void Start()
     {
         if (Instance == null)
@@ -17,5 +21,19 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    
+    public void MakeCurrent(Throwable newCurrent)
+    {
+        current = newCurrent;
+        powerPanel.SetActive(true);
+
+        // Add a fling direction indicator
+        
+    }
+
+    public void SetPower(float newPower)
+    {
+        flingPower = newPower;
+    }
+
+
 }
